@@ -1,7 +1,7 @@
-## Resume Scanner App
+# Resume Scanner App
 A smart Resume Scanning Application that uses Natural Language Processing (NLP) to analyze resumes, extract useful keywords, and classify candidate profiles. The final product is deployed with a Streamlit interface, making it interactive and user-friendly.
 
-# Features
+## Features
 ✅ Upload PDF resumes
 
 ✅ Extract text using PyMuPDF
@@ -16,7 +16,7 @@ A smart Resume Scanning Application that uses Natural Language Processing (NLP) 
 
 ✅ Deploy the app using Streamlit
 
-# Tech Stack
+## Tech Stack
 Tool	Purpose
 Python	Core Programming Language
 PyMuPDF	Resume text extraction from PDFs
@@ -37,7 +37,7 @@ Then open http://localhost:8501 in your browser.
 
 ## Project Structure
 
-# resume-scanner-app/
+## resume-scanner-app/
 │
 ├── app.py                  # Streamlit frontend
 ├── resume_parser.py        # Extraction and processing logic
@@ -47,7 +47,7 @@ Then open http://localhost:8501 in your browser.
 ├── requirements.txt        # List of dependencies
 └── README.md               # Project overview (this file)
 
-# Sample Use Case
+## Sample Use Case
 Upload a resume → Extract details → Identify matching skills → Get classified profile type
 Example output:
 {
@@ -59,7 +59,7 @@ Example output:
 }
 
 
-# Future Scope
+## Future Scope
 Integrate with job portals for auto-matching
 
 Add database storage (MongoDB / SQL)
